@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="org.automation.testing.testcase.TC_001_DDF_LoginFunctionality">
+        <methods>
+          <include name="loginfunctionality" invocation-numbers="0 1 2"/>
+          <include name="closeBrowser"/>
+          <include name="initiateDriverInstanse"/>
+        </methods>
+      </class> <!-- org.automation.testing.testcase.TC_001_DDF_LoginFunctionality -->
+      <class name="org.automation.testing.testcase.TC_002_DDF_Register">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initiateDriverInstanse"/>
+          <include name="register" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- org.automation.testing.testcase.TC_002_DDF_Register -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.automation.testing.testcase.TestCase_ValidateNewManufacturingOrder">
+        <methods>
+          <include name="inventoryFeature"/>
+          <include name="initiateDriverInstanse1"/>
+          <include name="closeBrowser"/>
+          <include name="initiateDriverInstanse2"/>
+          <include name="applicationIcon"/>
+          <include name="updateProductQuantity"/>
+          <include name="updateStatusDone"/>
+          <include name="validateManufacturigOrder"/>
+          <include name="createNewProduct"/>
+          <include name="initiateDriverInstanse"/>
+          <include name="createmanufacturingOrder"/>
+        </methods>
+      </class> <!-- org.automation.testing.testcase.TestCase_ValidateNewManufacturingOrder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
